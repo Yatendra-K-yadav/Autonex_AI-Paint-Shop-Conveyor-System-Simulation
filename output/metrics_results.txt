@@ -1,0 +1,46 @@
+
+================================================================================
+PAINT SHOP CONVEYOR SYSTEM SIMULATION - RESULTS
+================================================================================
+
+Simulation Duration: 480 minutes (8 hours)
+Total Cars Completed: 48
+Average System Time per Car: 669.99 minutes
+
+--------------------------------------------------------------------------------
+STATION 1: CLEANING
+--------------------------------------------------------------------------------
+Number of Machines: 1
+Utilization: 177.84%
+Max Queue Length: 21 cars
+Average Wait Time: 187.18 minutes
+Average Processing Time: 17.78 minutes
+Total Cars Processed: 48
+
+--------------------------------------------------------------------------------
+STATION 2: PRIMER APPLICATION
+--------------------------------------------------------------------------------
+Number of Machines: 2
+Utilization: 148.07%
+Max Queue Length: 1 cars
+Average Wait Time: 0.09 minutes
+Average Processing Time: 29.61 minutes
+Total Cars Processed: 48
+
+--------------------------------------------------------------------------------
+STATION 3: PAINTING
+--------------------------------------------------------------------------------
+Number of Machines: 1
+Utilization: 348.64%
+Max Queue Length: 22 cars
+Average Wait Time: 400.47 minutes
+Average Processing Time: 34.86 minutes
+Total Cars Processed: 48
+
+--------------------------------------------------------------------------------
+BOTTLENECK ANALYSIS
+--------------------------------------------------------------------------------
+Total Alerts Triggered: 160
+Most Utilized Station: Painting (348.64%)
+
+================================================================================

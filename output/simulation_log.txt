@@ -1,0 +1,695 @@
+[0.0] ================================================================================
+[0.0] PAINT SHOP CONVEYOR SYSTEM SIMULATION STARTED
+[0.0] ================================================================================
+[10.5] Car 1 ARRIVED
+[10.5] Car 1 entering Cleaning queue
+[10.5] Car 1 STARTED Cleaning
+[20.5] Car 2 ARRIVED
+[20.5] Car 2 entering Cleaning queue
+[29.2] Car 3 ARRIVED
+[29.2] Car 3 entering Cleaning queue
+[30.1] Car 1 FINISHED Cleaning
+[30.1] Car 1 entering Primer queue
+[30.1] Car 1 STARTED Primer
+[30.1] Car 2 STARTED Cleaning
+[38.5] Car 4 ARRIVED
+[38.5] Car 4 entering Cleaning queue
+[48.9] Car 5 ARRIVED
+[48.9] Car 5 entering Cleaning queue
+[49.6] Car 2 FINISHED Cleaning
+[49.6] Car 2 entering Primer queue
+[49.6] Car 2 STARTED Primer
+[49.6] Car 3 STARTED Cleaning
+[57.9] Car 1 FINISHED Primer
+[57.9] Car 1 entering Painting queue
+[57.9] Car 1 STARTED Painting
+[58.8] Car 6 ARRIVED
+[58.8] Car 6 entering Cleaning queue
+[66.8] Car 7 ARRIVED
+[66.8] Car 7 entering Cleaning queue
+[66.9] Car 3 FINISHED Cleaning
+[66.9] ALERT: Queue at Cleaning has 4 cars waiting
+[66.9] Car 3 entering Primer queue
+[66.9] Car 3 STARTED Primer
+[66.9] Car 4 STARTED Cleaning
+[76.4] Car 2 FINISHED Primer
+[76.4] Car 2 entering Painting queue
+[78.1] Car 8 ARRIVED
+[78.1] Car 8 entering Cleaning queue
+[82.8] Car 4 FINISHED Cleaning
+[82.8] ALERT: Queue at Cleaning has 4 cars waiting
+[82.8] Car 4 entering Primer queue
+[82.8] Car 4 STARTED Primer
+[82.8] Car 5 STARTED Cleaning
+[86.9] Car 9 ARRIVED
+[86.9] Car 9 entering Cleaning queue
+[89.3] Car 1 FINISHED Painting
+[89.3] Car 1 EXITED SYSTEM (Total time: 78.8 min)
+[89.3] Car 2 STARTED Painting
+[96.7] Car 10 ARRIVED
+[96.7] Car 10 entering Cleaning queue
+[98.7] Car 3 FINISHED Primer
+[98.7] ALERT: Queue at Cleaning has 5 cars waiting
+[98.7] Car 3 entering Painting queue
+[99.1] Car 5 FINISHED Cleaning
+[99.1] ALERT: Queue at Cleaning has 5 cars waiting
+[99.1] Car 5 entering Primer queue
+[99.1] Car 5 STARTED Primer
+[99.1] Car 6 STARTED Cleaning
+[108.6] Car 11 ARRIVED
+[108.6] Car 11 entering Cleaning queue
+[112.5] Car 4 FINISHED Primer
+[112.5] ALERT: Queue at Cleaning has 5 cars waiting
+[112.5] Car 4 entering Painting queue
+[117.2] Car 6 FINISHED Cleaning
+[117.2] ALERT: Queue at Cleaning has 5 cars waiting
+[117.2] Car 6 entering Primer queue
+[117.2] Car 6 STARTED Primer
+[117.2] Car 7 STARTED Cleaning
+[118.1] Car 12 ARRIVED
+[118.1] Car 12 entering Cleaning queue
+[121.0] Car 2 FINISHED Painting
+[121.0] Car 2 EXITED SYSTEM (Total time: 100.5 min)
+[121.0] Car 3 STARTED Painting
+[127.0] Car 5 FINISHED Primer
+[127.0] ALERT: Queue at Cleaning has 5 cars waiting
+[127.0] Car 5 entering Painting queue
+[127.2] Car 13 ARRIVED
+[127.2] Car 13 entering Cleaning queue
+[136.2] Car 7 FINISHED Cleaning
+[136.2] ALERT: Queue at Cleaning has 6 cars waiting
+[136.2] Car 7 entering Primer queue
+[136.2] Car 7 STARTED Primer
+[136.2] Car 8 STARTED Cleaning
+[136.5] Car 14 ARRIVED
+[136.5] Car 14 entering Cleaning queue
+[147.9] Car 15 ARRIVED
+[147.9] Car 15 entering Cleaning queue
+[151.2] Car 6 FINISHED Primer
+[151.2] ALERT: Queue at Cleaning has 7 cars waiting
+[151.2] Car 6 entering Painting queue
+[153.1] Car 8 FINISHED Cleaning
+[153.1] ALERT: Queue at Cleaning has 7 cars waiting
+[153.1] Car 8 entering Primer queue
+[153.1] Car 8 STARTED Primer
+[153.1] Car 9 STARTED Cleaning
+[155.6] Car 3 FINISHED Painting
+[155.6] Car 3 EXITED SYSTEM (Total time: 126.5 min)
+[155.6] Car 4 STARTED Painting
+[156.5] Car 16 ARRIVED
+[156.5] Car 16 entering Cleaning queue
+[164.7] Car 17 ARRIVED
+[164.7] Car 17 entering Cleaning queue
+[171.2] Car 7 FINISHED Primer
+[171.2] ALERT: Queue at Cleaning has 8 cars waiting
+[171.2] Car 7 entering Painting queue
+[171.2] Car 9 FINISHED Cleaning
+[171.2] ALERT: Queue at Cleaning has 8 cars waiting
+[171.2] Car 9 entering Primer queue
+[171.2] Car 9 STARTED Primer
+[171.2] Car 10 STARTED Cleaning
+[174.3] Car 18 ARRIVED
+[174.3] Car 18 entering Cleaning queue
+[185.2] Car 19 ARRIVED
+[185.2] Car 19 entering Cleaning queue
+[185.8] Car 8 FINISHED Primer
+[185.8] ALERT: Queue at Cleaning has 9 cars waiting
+[185.8] Car 8 entering Painting queue
+[190.0] Car 10 FINISHED Cleaning
+[190.0] ALERT: Queue at Cleaning has 9 cars waiting
+[190.0] ALERT: Queue at Painting has 4 cars waiting
+[190.0] Car 10 entering Primer queue
+[190.0] Car 10 STARTED Primer
+[190.0] Car 11 STARTED Cleaning
+[194.6] Car 4 FINISHED Painting
+[194.6] Car 4 EXITED SYSTEM (Total time: 156.1 min)
+[194.6] Car 5 STARTED Painting
+[196.1] Car 20 ARRIVED
+[196.1] Car 20 entering Cleaning queue
+[199.6] Car 9 FINISHED Primer
+[199.6] ALERT: Queue at Cleaning has 9 cars waiting
+[199.6] Car 9 entering Painting queue
+[205.4] Car 11 FINISHED Cleaning
+[205.4] ALERT: Queue at Cleaning has 9 cars waiting
+[205.4] ALERT: Queue at Painting has 4 cars waiting
+[205.4] Car 11 entering Primer queue
+[205.4] Car 11 STARTED Primer
+[205.4] Car 12 STARTED Cleaning
+[206.4] Car 21 ARRIVED
+[206.4] Car 21 entering Cleaning queue
+[216.4] Car 22 ARRIVED
+[216.4] Car 22 entering Cleaning queue
+[221.2] Car 12 FINISHED Cleaning
+[221.2] ALERT: Queue at Cleaning has 10 cars waiting
+[221.2] ALERT: Queue at Painting has 4 cars waiting
+[221.2] Car 12 entering Primer queue
+[221.2] Car 13 STARTED Cleaning
+[224.7] Car 23 ARRIVED
+[224.7] Car 23 entering Cleaning queue
+[224.8] Car 10 FINISHED Primer
+[224.8] ALERT: Queue at Cleaning has 10 cars waiting
+[224.8] ALERT: Queue at Painting has 4 cars waiting
+[224.8] Car 10 entering Painting queue
+[224.8] Car 12 STARTED Primer
+[226.9] Car 5 FINISHED Painting
+[226.9] Car 5 EXITED SYSTEM (Total time: 178.0 min)
+[226.9] Car 6 STARTED Painting
+[231.1] Car 11 FINISHED Primer
+[231.1] ALERT: Queue at Cleaning has 10 cars waiting
+[231.1] ALERT: Queue at Painting has 4 cars waiting
+[231.1] Car 11 entering Painting queue
+[235.5] Car 24 ARRIVED
+[235.5] Car 24 entering Cleaning queue
+[239.4] Car 13 FINISHED Cleaning
+[239.4] ALERT: Queue at Cleaning has 11 cars waiting
+[239.4] ALERT: Queue at Painting has 5 cars waiting
+[239.4] Car 13 entering Primer queue
+[239.4] Car 13 STARTED Primer
+[239.4] Car 14 STARTED Cleaning
+[243.8] Car 25 ARRIVED
+[243.8] Car 25 entering Cleaning queue
+[252.0] Car 26 ARRIVED
+[252.0] Car 26 entering Cleaning queue
+[252.7] Car 12 FINISHED Primer
+[252.7] ALERT: Queue at Cleaning has 12 cars waiting
+[252.7] ALERT: Queue at Painting has 5 cars waiting
+[252.7] Car 12 entering Painting queue
+[258.3] Car 14 FINISHED Cleaning
+[258.3] ALERT: Queue at Cleaning has 12 cars waiting
+[258.3] ALERT: Queue at Painting has 6 cars waiting
+[258.3] Car 14 entering Primer queue
+[258.3] Car 14 STARTED Primer
+[258.3] Car 15 STARTED Cleaning
+[262.0] Car 27 ARRIVED
+[262.0] Car 27 entering Cleaning queue
+[265.0] Car 6 FINISHED Painting
+[265.0] Car 6 EXITED SYSTEM (Total time: 206.2 min)
+[265.0] Car 7 STARTED Painting
+[270.4] Car 13 FINISHED Primer
+[270.4] ALERT: Queue at Cleaning has 12 cars waiting
+[270.4] ALERT: Queue at Painting has 5 cars waiting
+[270.4] Car 13 entering Painting queue
+[272.6] Car 28 ARRIVED
+[272.6] Car 28 entering Cleaning queue
+[276.5] Car 15 FINISHED Cleaning
+[276.5] ALERT: Queue at Cleaning has 13 cars waiting
+[276.5] ALERT: Queue at Painting has 6 cars waiting
+[276.5] Car 15 entering Primer queue
+[276.5] Car 15 STARTED Primer
+[276.5] Car 16 STARTED Cleaning
+[282.3] Car 29 ARRIVED
+[282.3] Car 29 entering Cleaning queue
+[291.4] Car 14 FINISHED Primer
+[291.4] ALERT: Queue at Cleaning has 13 cars waiting
+[291.4] ALERT: Queue at Painting has 6 cars waiting
+[291.4] Car 14 entering Painting queue
+[291.8] Car 30 ARRIVED
+[291.8] Car 30 entering Cleaning queue
+[294.6] Car 16 FINISHED Cleaning
+[294.6] ALERT: Queue at Cleaning has 14 cars waiting
+[294.6] ALERT: Queue at Painting has 7 cars waiting
+[294.6] Car 16 entering Primer queue
+[294.6] Car 16 STARTED Primer
+[294.6] Car 17 STARTED Cleaning
+[295.7] Car 7 FINISHED Painting
+[295.7] Car 7 EXITED SYSTEM (Total time: 228.8 min)
+[295.7] Car 8 STARTED Painting
+[301.9] Car 31 ARRIVED
+[301.9] Car 31 entering Cleaning queue
+[307.4] Car 15 FINISHED Primer
+[307.4] ALERT: Queue at Cleaning has 14 cars waiting
+[307.4] ALERT: Queue at Painting has 6 cars waiting
+[307.4] Car 15 entering Painting queue
+[311.0] Car 32 ARRIVED
+[311.0] Car 32 entering Cleaning queue
+[311.1] Car 17 FINISHED Cleaning
+[311.1] ALERT: Queue at Cleaning has 15 cars waiting
+[311.1] ALERT: Queue at Painting has 7 cars waiting
+[311.1] Car 17 entering Primer queue
+[311.1] Car 17 STARTED Primer
+[311.1] Car 18 STARTED Cleaning
+[320.0] Car 33 ARRIVED
+[320.0] Car 33 entering Cleaning queue
+[325.9] Car 16 FINISHED Primer
+[325.9] ALERT: Queue at Cleaning has 15 cars waiting
+[325.9] ALERT: Queue at Painting has 7 cars waiting
+[325.9] Car 16 entering Painting queue
+[327.3] Car 18 FINISHED Cleaning
+[327.3] ALERT: Queue at Cleaning has 15 cars waiting
+[327.3] ALERT: Queue at Painting has 8 cars waiting
+[327.3] Car 18 entering Primer queue
+[327.3] Car 18 STARTED Primer
+[327.3] Car 19 STARTED Cleaning
+[330.2] Car 8 FINISHED Painting
+[330.2] Car 8 EXITED SYSTEM (Total time: 252.2 min)
+[330.2] Car 9 STARTED Painting
+[331.0] Car 34 ARRIVED
+[331.0] Car 34 entering Cleaning queue
+[339.9] Car 17 FINISHED Primer
+[339.9] ALERT: Queue at Cleaning has 15 cars waiting
+[339.9] ALERT: Queue at Painting has 7 cars waiting
+[339.9] Car 17 entering Painting queue
+[341.7] Car 35 ARRIVED
+[341.7] Car 35 entering Cleaning queue
+[346.1] Car 19 FINISHED Cleaning
+[346.1] ALERT: Queue at Cleaning has 16 cars waiting
+[346.1] ALERT: Queue at Painting has 8 cars waiting
+[346.1] Car 19 entering Primer queue
+[346.1] Car 19 STARTED Primer
+[346.1] Car 20 STARTED Cleaning
+[352.7] Car 36 ARRIVED
+[352.7] Car 36 entering Cleaning queue
+[356.9] Car 18 FINISHED Primer
+[356.9] ALERT: Queue at Cleaning has 16 cars waiting
+[356.9] ALERT: Queue at Painting has 8 cars waiting
+[356.9] Car 18 entering Painting queue
+[362.0] Car 20 FINISHED Cleaning
+[362.0] ALERT: Queue at Cleaning has 16 cars waiting
+[362.0] ALERT: Queue at Painting has 9 cars waiting
+[362.0] Car 20 entering Primer queue
+[362.0] Car 20 STARTED Primer
+[362.0] Car 21 STARTED Cleaning
+[364.0] Car 37 ARRIVED
+[364.0] Car 37 entering Cleaning queue
+[366.0] Car 9 FINISHED Painting
+[366.0] Car 9 EXITED SYSTEM (Total time: 279.2 min)
+[366.0] Car 10 STARTED Painting
+[375.3] Car 38 ARRIVED
+[375.3] Car 38 entering Cleaning queue
+[378.1] Car 19 FINISHED Primer
+[378.1] ALERT: Queue at Cleaning has 17 cars waiting
+[378.1] ALERT: Queue at Painting has 8 cars waiting
+[378.1] Car 19 entering Painting queue
+[381.5] Car 21 FINISHED Cleaning
+[381.5] ALERT: Queue at Cleaning has 17 cars waiting
+[381.5] ALERT: Queue at Painting has 9 cars waiting
+[381.5] Car 21 entering Primer queue
+[381.5] Car 21 STARTED Primer
+[381.5] Car 22 STARTED Cleaning
+[383.7] Car 39 ARRIVED
+[383.7] Car 39 entering Cleaning queue
+[388.5] Car 20 FINISHED Primer
+[388.5] ALERT: Queue at Cleaning has 17 cars waiting
+[388.5] ALERT: Queue at Painting has 9 cars waiting
+[388.5] Car 20 entering Painting queue
+[391.9] Car 40 ARRIVED
+[391.9] Car 40 entering Cleaning queue
+[399.1] Car 22 FINISHED Cleaning
+[399.1] ALERT: Queue at Cleaning has 18 cars waiting
+[399.1] ALERT: Queue at Painting has 10 cars waiting
+[399.1] Car 22 entering Primer queue
+[399.1] Car 22 STARTED Primer
+[399.1] Car 23 STARTED Cleaning
+[399.9] Car 10 FINISHED Painting
+[399.9] Car 10 EXITED SYSTEM (Total time: 303.2 min)
+[399.9] Car 11 STARTED Painting
+[402.3] Car 41 ARRIVED
+[402.3] Car 41 entering Cleaning queue
+[410.3] Car 21 FINISHED Primer
+[410.3] ALERT: Queue at Cleaning has 18 cars waiting
+[410.3] ALERT: Queue at Painting has 9 cars waiting
+[410.3] Car 21 entering Painting queue
+[412.1] Car 42 ARRIVED
+[412.1] Car 42 entering Cleaning queue
+[417.2] Car 23 FINISHED Cleaning
+[417.2] ALERT: Queue at Cleaning has 19 cars waiting
+[417.2] ALERT: Queue at Painting has 10 cars waiting
+[417.2] Car 23 entering Primer queue
+[417.2] Car 23 STARTED Primer
+[417.2] Car 24 STARTED Cleaning
+[422.4] Car 43 ARRIVED
+[422.4] Car 43 entering Cleaning queue
+[424.3] Car 22 FINISHED Primer
+[424.3] ALERT: Queue at Cleaning has 19 cars waiting
+[424.3] ALERT: Queue at Painting has 10 cars waiting
+[424.3] Car 22 entering Painting queue
+[432.6] Car 24 FINISHED Cleaning
+[432.6] ALERT: Queue at Cleaning has 19 cars waiting
+[432.6] ALERT: Queue at Painting has 11 cars waiting
+[432.6] Car 24 entering Primer queue
+[432.6] Car 24 STARTED Primer
+[432.6] Car 25 STARTED Cleaning
+[433.0] Car 44 ARRIVED
+[433.0] Car 44 entering Cleaning queue
+[436.5] Car 11 FINISHED Painting
+[436.5] Car 11 EXITED SYSTEM (Total time: 327.9 min)
+[436.5] Car 12 STARTED Painting
+[443.6] Car 45 ARRIVED
+[443.6] Car 45 entering Cleaning queue
+[450.3] Car 23 FINISHED Primer
+[450.3] ALERT: Queue at Cleaning has 20 cars waiting
+[450.3] ALERT: Queue at Painting has 10 cars waiting
+[450.3] Car 23 entering Painting queue
+[450.5] Car 25 FINISHED Cleaning
+[450.5] ALERT: Queue at Cleaning has 20 cars waiting
+[450.5] ALERT: Queue at Painting has 11 cars waiting
+[450.5] Car 25 entering Primer queue
+[450.5] Car 25 STARTED Primer
+[450.5] Car 26 STARTED Cleaning
+[454.2] Car 46 ARRIVED
+[454.2] Car 46 entering Cleaning queue
+[462.0] Car 24 FINISHED Primer
+[462.0] ALERT: Queue at Cleaning has 20 cars waiting
+[462.0] ALERT: Queue at Painting has 11 cars waiting
+[462.0] Car 24 entering Painting queue
+[464.8] Car 47 ARRIVED
+[464.8] Car 47 entering Cleaning queue
+[468.9] Car 26 FINISHED Cleaning
+[468.9] ALERT: Queue at Cleaning has 21 cars waiting
+[468.9] ALERT: Queue at Painting has 12 cars waiting
+[468.9] Car 26 entering Primer queue
+[468.9] Car 26 STARTED Primer
+[468.9] Car 27 STARTED Cleaning
+[475.0] Car 48 ARRIVED
+[475.0] Car 48 entering Cleaning queue
+[476.1] Car 12 FINISHED Painting
+[476.1] Car 12 EXITED SYSTEM (Total time: 358.0 min)
+[476.1] Car 13 STARTED Painting
+[485.2] Car 25 FINISHED Primer
+[485.2] ALERT: Queue at Cleaning has 21 cars waiting
+[485.2] ALERT: Queue at Painting has 11 cars waiting
+[485.2] Car 25 entering Painting queue
+[486.2] STOP accepting new cars (shift end at 480 min)
+[487.3] Car 27 FINISHED Cleaning
+[487.3] ALERT: Queue at Cleaning has 21 cars waiting
+[487.3] ALERT: Queue at Painting has 12 cars waiting
+[487.3] Car 27 entering Primer queue
+[487.3] Car 27 STARTED Primer
+[487.3] Car 28 STARTED Cleaning
+[495.3] Car 26 FINISHED Primer
+[495.3] ALERT: Queue at Cleaning has 20 cars waiting
+[495.3] ALERT: Queue at Painting has 12 cars waiting
+[495.3] Car 26 entering Painting queue
+[503.5] Car 28 FINISHED Cleaning
+[503.5] ALERT: Queue at Cleaning has 20 cars waiting
+[503.5] ALERT: Queue at Painting has 13 cars waiting
+[503.5] Car 28 entering Primer queue
+[503.5] Car 28 STARTED Primer
+[503.5] Car 29 STARTED Cleaning
+[510.8] Car 13 FINISHED Painting
+[510.8] Car 13 EXITED SYSTEM (Total time: 383.6 min)
+[510.8] Car 14 STARTED Painting
+[519.2] Car 27 FINISHED Primer
+[519.2] ALERT: Queue at Cleaning has 19 cars waiting
+[519.2] ALERT: Queue at Painting has 12 cars waiting
+[519.2] Car 27 entering Painting queue
+[522.6] Car 29 FINISHED Cleaning
+[522.6] ALERT: Queue at Cleaning has 19 cars waiting
+[522.6] ALERT: Queue at Painting has 13 cars waiting
+[522.6] Car 29 entering Primer queue
+[522.6] Car 29 STARTED Primer
+[522.6] Car 30 STARTED Cleaning
+[529.3] Car 28 FINISHED Primer
+[529.3] ALERT: Queue at Cleaning has 18 cars waiting
+[529.3] ALERT: Queue at Painting has 13 cars waiting
+[529.3] Car 28 entering Painting queue
+[542.2] Car 30 FINISHED Cleaning
+[542.2] ALERT: Queue at Cleaning has 18 cars waiting
+[542.2] ALERT: Queue at Painting has 14 cars waiting
+[542.2] Car 30 entering Primer queue
+[542.2] Car 30 STARTED Primer
+[542.2] Car 31 STARTED Cleaning
+[543.2] Car 14 FINISHED Painting
+[543.2] Car 14 EXITED SYSTEM (Total time: 406.7 min)
+[543.2] Car 15 STARTED Painting
+[549.2] Car 29 FINISHED Primer
+[549.2] ALERT: Queue at Cleaning has 17 cars waiting
+[549.2] ALERT: Queue at Painting has 13 cars waiting
+[549.2] Car 29 entering Painting queue
+[562.0] Car 31 FINISHED Cleaning
+[562.0] ALERT: Queue at Cleaning has 17 cars waiting
+[562.0] ALERT: Queue at Painting has 14 cars waiting
+[562.0] Car 31 entering Primer queue
+[562.0] Car 31 STARTED Primer
+[562.0] Car 32 STARTED Cleaning
+[573.2] Car 30 FINISHED Primer
+[573.2] ALERT: Queue at Cleaning has 16 cars waiting
+[573.2] ALERT: Queue at Painting has 14 cars waiting
+[573.2] Car 30 entering Painting queue
+[580.8] Car 32 FINISHED Cleaning
+[580.8] ALERT: Queue at Cleaning has 16 cars waiting
+[580.8] ALERT: Queue at Painting has 15 cars waiting
+[580.8] Car 32 entering Primer queue
+[580.8] Car 32 STARTED Primer
+[580.8] Car 33 STARTED Cleaning
+[581.1] Car 15 FINISHED Painting
+[581.1] Car 15 EXITED SYSTEM (Total time: 433.3 min)
+[581.1] Car 16 STARTED Painting
+[587.6] Car 31 FINISHED Primer
+[587.6] ALERT: Queue at Cleaning has 15 cars waiting
+[587.6] ALERT: Queue at Painting has 14 cars waiting
+[587.6] Car 31 entering Painting queue
+[595.9] Car 33 FINISHED Cleaning
+[595.9] ALERT: Queue at Cleaning has 15 cars waiting
+[595.9] ALERT: Queue at Painting has 15 cars waiting
+[595.9] Car 33 entering Primer queue
+[595.9] Car 33 STARTED Primer
+[595.9] Car 34 STARTED Cleaning
+[607.0] Car 32 FINISHED Primer
+[607.0] ALERT: Queue at Cleaning has 14 cars waiting
+[607.0] ALERT: Queue at Painting has 15 cars waiting
+[607.0] Car 32 entering Painting queue
+[612.0] Car 34 FINISHED Cleaning
+[612.0] ALERT: Queue at Cleaning has 14 cars waiting
+[612.0] ALERT: Queue at Painting has 16 cars waiting
+[612.0] Car 34 entering Primer queue
+[612.0] Car 34 STARTED Primer
+[612.0] Car 35 STARTED Cleaning
+[615.1] Car 16 FINISHED Painting
+[615.1] Car 16 EXITED SYSTEM (Total time: 458.6 min)
+[615.1] Car 17 STARTED Painting
+[629.0] Car 33 FINISHED Primer
+[629.0] ALERT: Queue at Cleaning has 13 cars waiting
+[629.0] ALERT: Queue at Painting has 15 cars waiting
+[629.0] Car 33 entering Painting queue
+[630.7] Car 35 FINISHED Cleaning
+[630.7] ALERT: Queue at Cleaning has 13 cars waiting
+[630.7] ALERT: Queue at Painting has 16 cars waiting
+[630.7] Car 35 entering Primer queue
+[630.7] Car 35 STARTED Primer
+[630.7] Car 36 STARTED Cleaning
+[639.2] Car 34 FINISHED Primer
+[639.2] ALERT: Queue at Cleaning has 12 cars waiting
+[639.2] ALERT: Queue at Painting has 16 cars waiting
+[639.2] Car 34 entering Painting queue
+[648.8] Car 17 FINISHED Painting
+[648.8] Car 17 EXITED SYSTEM (Total time: 484.1 min)
+[648.8] Car 18 STARTED Painting
+[650.5] Car 36 FINISHED Cleaning
+[650.5] ALERT: Queue at Cleaning has 12 cars waiting
+[650.5] ALERT: Queue at Painting has 16 cars waiting
+[650.5] Car 36 entering Primer queue
+[650.5] Car 36 STARTED Primer
+[650.5] Car 37 STARTED Cleaning
+[656.0] Car 35 FINISHED Primer
+[656.0] ALERT: Queue at Cleaning has 11 cars waiting
+[656.0] ALERT: Queue at Painting has 16 cars waiting
+[656.0] Car 35 entering Painting queue
+[665.5] Car 37 FINISHED Cleaning
+[665.5] ALERT: Queue at Cleaning has 11 cars waiting
+[665.5] ALERT: Queue at Painting has 17 cars waiting
+[665.5] Car 37 entering Primer queue
+[665.5] Car 37 STARTED Primer
+[665.5] Car 38 STARTED Cleaning
+[683.3] Car 38 FINISHED Cleaning
+[683.3] ALERT: Queue at Cleaning has 10 cars waiting
+[683.3] ALERT: Queue at Painting has 17 cars waiting
+[683.3] Car 38 entering Primer queue
+[683.3] Car 39 STARTED Cleaning
+[683.9] Car 36 FINISHED Primer
+[683.9] ALERT: Queue at Cleaning has 9 cars waiting
+[683.9] ALERT: Queue at Painting has 17 cars waiting
+[683.9] Car 36 entering Painting queue
+[683.9] Car 38 STARTED Primer
+[684.2] Car 18 FINISHED Painting
+[684.2] Car 18 EXITED SYSTEM (Total time: 509.9 min)
+[684.2] Car 19 STARTED Painting
+[699.8] Car 37 FINISHED Primer
+[699.8] ALERT: Queue at Cleaning has 9 cars waiting
+[699.8] ALERT: Queue at Painting has 17 cars waiting
+[699.8] Car 37 entering Painting queue
+[703.2] Car 39 FINISHED Cleaning
+[703.2] ALERT: Queue at Cleaning has 9 cars waiting
+[703.2] ALERT: Queue at Painting has 18 cars waiting
+[703.2] Car 39 entering Primer queue
+[703.2] Car 39 STARTED Primer
+[703.2] Car 40 STARTED Cleaning
+[715.3] Car 19 FINISHED Painting
+[715.3] Car 19 EXITED SYSTEM (Total time: 530.2 min)
+[715.3] Car 20 STARTED Painting
+[718.2] Car 38 FINISHED Primer
+[718.2] ALERT: Queue at Cleaning has 8 cars waiting
+[718.2] ALERT: Queue at Painting has 17 cars waiting
+[718.2] Car 38 entering Painting queue
+[718.9] Car 40 FINISHED Cleaning
+[718.9] ALERT: Queue at Cleaning has 8 cars waiting
+[718.9] ALERT: Queue at Painting has 18 cars waiting
+[718.9] Car 40 entering Primer queue
+[718.9] Car 40 STARTED Primer
+[718.9] Car 41 STARTED Cleaning
+[731.6] Car 39 FINISHED Primer
+[731.6] ALERT: Queue at Cleaning has 7 cars waiting
+[731.6] ALERT: Queue at Painting has 18 cars waiting
+[731.6] Car 39 entering Painting queue
+[736.8] Car 41 FINISHED Cleaning
+[736.8] ALERT: Queue at Cleaning has 7 cars waiting
+[736.8] ALERT: Queue at Painting has 19 cars waiting
+[736.8] Car 41 entering Primer queue
+[736.8] Car 41 STARTED Primer
+[736.8] Car 42 STARTED Cleaning
+[745.1] Car 40 FINISHED Primer
+[745.1] ALERT: Queue at Cleaning has 6 cars waiting
+[745.1] ALERT: Queue at Painting has 19 cars waiting
+[745.1] Car 40 entering Painting queue
+[747.2] Car 20 FINISHED Painting
+[747.2] Car 20 EXITED SYSTEM (Total time: 551.1 min)
+[747.2] Car 21 STARTED Painting
+[754.9] Car 42 FINISHED Cleaning
+[754.9] ALERT: Queue at Cleaning has 6 cars waiting
+[754.9] ALERT: Queue at Painting has 19 cars waiting
+[754.9] Car 42 entering Primer queue
+[754.9] Car 42 STARTED Primer
+[754.9] Car 43 STARTED Cleaning
+[766.0] Car 41 FINISHED Primer
+[766.0] ALERT: Queue at Cleaning has 5 cars waiting
+[766.0] ALERT: Queue at Painting has 19 cars waiting
+[766.0] Car 41 entering Painting queue
+[774.2] Car 43 FINISHED Cleaning
+[774.2] ALERT: Queue at Cleaning has 5 cars waiting
+[774.2] ALERT: Queue at Painting has 20 cars waiting
+[774.2] Car 43 entering Primer queue
+[774.2] Car 43 STARTED Primer
+[774.2] Car 44 STARTED Cleaning
+[782.4] Car 42 FINISHED Primer
+[782.4] ALERT: Queue at Cleaning has 4 cars waiting
+[782.4] ALERT: Queue at Painting has 20 cars waiting
+[782.4] Car 42 entering Painting queue
+[787.2] Car 21 FINISHED Painting
+[787.2] Car 21 EXITED SYSTEM (Total time: 580.8 min)
+[787.2] Car 22 STARTED Painting
+[791.9] Car 44 FINISHED Cleaning
+[791.9] ALERT: Queue at Cleaning has 4 cars waiting
+[791.9] ALERT: Queue at Painting has 20 cars waiting
+[791.9] Car 44 entering Primer queue
+[791.9] Car 44 STARTED Primer
+[791.9] Car 45 STARTED Cleaning
+[804.0] Car 43 FINISHED Primer
+[804.0] ALERT: Queue at Painting has 20 cars waiting
+[804.0] Car 43 entering Painting queue
+[810.4] Car 45 FINISHED Cleaning
+[810.4] ALERT: Queue at Painting has 21 cars waiting
+[810.4] Car 45 entering Primer queue
+[810.4] Car 45 STARTED Primer
+[810.4] Car 46 STARTED Cleaning
+[820.2] Car 22 FINISHED Painting
+[820.2] Car 22 EXITED SYSTEM (Total time: 603.8 min)
+[820.2] Car 23 STARTED Painting
+[820.9] Car 44 FINISHED Primer
+[820.9] ALERT: Queue at Painting has 20 cars waiting
+[820.9] Car 44 entering Painting queue
+[829.1] Car 46 FINISHED Cleaning
+[829.1] ALERT: Queue at Painting has 21 cars waiting
+[829.1] Car 46 entering Primer queue
+[829.1] Car 46 STARTED Primer
+[829.1] Car 47 STARTED Cleaning
+[842.0] Car 45 FINISHED Primer
+[842.0] ALERT: Queue at Painting has 21 cars waiting
+[842.0] Car 45 entering Painting queue
+[848.5] Car 47 FINISHED Cleaning
+[848.5] ALERT: Queue at Painting has 22 cars waiting
+[848.5] Car 47 entering Primer queue
+[848.5] Car 47 STARTED Primer
+[848.5] Car 48 STARTED Cleaning
+[854.1] Car 46 FINISHED Primer
+[854.1] ALERT: Queue at Painting has 22 cars waiting
+[854.1] Car 46 entering Painting queue
+[857.1] Car 23 FINISHED Painting
+[857.1] Car 23 EXITED SYSTEM (Total time: 632.4 min)
+[857.1] Car 24 STARTED Painting
+[864.1] Car 48 FINISHED Cleaning
+[864.1] ALERT: Queue at Painting has 22 cars waiting
+[864.1] Car 48 entering Primer queue
+[864.1] Car 48 STARTED Primer
+[874.5] Car 47 FINISHED Primer
+[874.5] ALERT: Queue at Painting has 22 cars waiting
+[874.5] Car 47 entering Painting queue
+[890.3] Car 24 FINISHED Painting
+[890.3] Car 24 EXITED SYSTEM (Total time: 654.8 min)
+[890.3] Car 25 STARTED Painting
+[894.7] Car 48 FINISHED Primer
+[894.7] ALERT: Queue at Painting has 22 cars waiting
+[894.7] Car 48 entering Painting queue
+[928.1] Car 25 FINISHED Painting
+[928.1] Car 25 EXITED SYSTEM (Total time: 684.3 min)
+[928.1] Car 26 STARTED Painting
+[964.3] Car 26 FINISHED Painting
+[964.3] Car 26 EXITED SYSTEM (Total time: 712.3 min)
+[964.3] Car 27 STARTED Painting
+[1004.2] Car 27 FINISHED Painting
+[1004.2] Car 27 EXITED SYSTEM (Total time: 742.3 min)
+[1004.2] Car 28 STARTED Painting
+[1035.6] Car 28 FINISHED Painting
+[1035.6] Car 28 EXITED SYSTEM (Total time: 762.9 min)
+[1035.6] Car 29 STARTED Painting
+[1066.0] Car 29 FINISHED Painting
+[1066.0] Car 29 EXITED SYSTEM (Total time: 783.6 min)
+[1066.0] Car 30 STARTED Painting
+[1101.7] Car 30 FINISHED Painting
+[1101.7] Car 30 EXITED SYSTEM (Total time: 809.9 min)
+[1101.7] Car 31 STARTED Painting
+[1137.3] Car 31 FINISHED Painting
+[1137.3] Car 31 EXITED SYSTEM (Total time: 835.4 min)
+[1137.3] Car 32 STARTED Painting
+[1171.4] Car 32 FINISHED Painting
+[1171.4] Car 32 EXITED SYSTEM (Total time: 860.4 min)
+[1171.4] Car 33 STARTED Painting
+[1210.1] Car 33 FINISHED Painting
+[1210.1] Car 33 EXITED SYSTEM (Total time: 890.1 min)
+[1210.1] Car 34 STARTED Painting
+[1242.7] Car 34 FINISHED Painting
+[1242.7] Car 34 EXITED SYSTEM (Total time: 911.8 min)
+[1242.7] Car 35 STARTED Painting
+[1275.5] Car 35 FINISHED Painting
+[1275.5] Car 35 EXITED SYSTEM (Total time: 933.8 min)
+[1275.5] Car 36 STARTED Painting
+[1315.0] Car 36 FINISHED Painting
+[1315.0] Car 36 EXITED SYSTEM (Total time: 962.4 min)
+[1315.0] Car 37 STARTED Painting
+[1348.2] Car 37 FINISHED Painting
+[1348.2] Car 37 EXITED SYSTEM (Total time: 984.2 min)
+[1348.2] Car 38 STARTED Painting
+[1381.7] Car 38 FINISHED Painting
+[1381.7] Car 38 EXITED SYSTEM (Total time: 1006.3 min)
+[1381.7] Car 39 STARTED Painting
+[1417.9] Car 39 FINISHED Painting
+[1417.9] Car 39 EXITED SYSTEM (Total time: 1034.2 min)
+[1417.9] Car 40 STARTED Painting
+[1450.9] Car 40 FINISHED Painting
+[1450.9] Car 40 EXITED SYSTEM (Total time: 1058.9 min)
+[1450.9] Car 41 STARTED Painting
+[1487.4] Car 41 FINISHED Painting
+[1487.4] Car 41 EXITED SYSTEM (Total time: 1085.1 min)
+[1487.4] Car 42 STARTED Painting
+[1517.6] Car 42 FINISHED Painting
+[1517.6] Car 42 EXITED SYSTEM (Total time: 1105.6 min)
+[1517.6] Car 43 STARTED Painting
+[1553.6] Car 43 FINISHED Painting
+[1553.6] Car 43 EXITED SYSTEM (Total time: 1131.2 min)
+[1553.6] Car 44 STARTED Painting
+[1592.4] Car 44 FINISHED Painting
+[1592.4] Car 44 EXITED SYSTEM (Total time: 1159.4 min)
+[1592.4] Car 45 STARTED Painting
+[1627.0] Car 45 FINISHED Painting
+[1627.0] Car 45 EXITED SYSTEM (Total time: 1183.4 min)
+[1627.0] Car 46 STARTED Painting
+[1663.2] Car 46 FINISHED Painting
+[1663.2] Car 46 EXITED SYSTEM (Total time: 1209.0 min)
+[1663.2] Car 47 STARTED Painting
+[1696.9] Car 47 FINISHED Painting
+[1696.9] Car 47 EXITED SYSTEM (Total time: 1232.1 min)
+[1696.9] Car 48 STARTED Painting
+[1731.4] Car 48 FINISHED Painting
+[1731.4] Car 48 EXITED SYSTEM (Total time: 1256.4 min)
+[2000.0] ================================================================================
+[2000.0] SIMULATION COMPLETE
+[2000.0] ================================================================================
